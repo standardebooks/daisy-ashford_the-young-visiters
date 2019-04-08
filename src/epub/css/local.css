@@ -12,9 +12,8 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-p.signature{
+.signature{
 	font-variant: small-caps;
-	text-align: right;
 }
 
 blockquote[epub|type~="z3998:letter"] p{
@@ -26,11 +25,16 @@ blockquote[epub|type~="z3998:letter"] header p{
 	text-align: left;
 }
 
+blockquote[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
 blockquote[epub|type~="z3998:letter"] header p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
 footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
