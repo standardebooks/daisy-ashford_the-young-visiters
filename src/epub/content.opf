@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Young Visiters</dc:title>
 		<meta property="file-as" refines="#title">Young Visiters, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -39,19 +39,20 @@
 		<dc:subject id="subject-1">Humorous stories</dc:subject>
 		<dc:subject id="subject-2">Love stories</dc:subject>
 		<dc:subject id="subject-3">Children’s writings, English</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/21415</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/21415</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/21415</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85062975</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A nine-year-old girl’s humorous depiction of high society, exactly as written in her notebook.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Daisy Ashford was just nine years old when she penned (or rather, penciled) &lt;i&gt;The Young Visiters&lt;/i&gt; in her notebook. As an adult, she found the manuscript along with other childhood writings and showed them to her literary friends for a laugh. They were so delighted that they passed them around their circle. The unexpected result was a publishing deal, with J. M. Barrie, creator of Peter Pan, writing the preface. So clever was the book that some assumed Barrie himself had written the entire thing as an elaborate hoax.&lt;/p&gt;
 			&lt;p&gt;The story’s “hero” is Alfred Salteena, a polite but bumbling man who hopes to learn the ways of the elite. He is in love with a younger woman, Ethel, but a love triangle with his friend Bernard soon emerges. The characters attend “sumshious” balls, stay in lavish “compartments,” and wear elaborate “get ups,” all of it rendered in Ashford’s original childish spelling. The story reads like a pastiche of high society and even a parody of the Victorian novel.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Young Visiters&lt;/i&gt; was published in 1919 and was reprinted eighteen times in that year alone. It has been adapted into a play, a musical, and multiple film versions. Ashford’s other juvenile writings were later published, including &lt;i&gt;The Hangman’s Daughter&lt;/i&gt;, a short novel she considered her finest work. As an adult, she did not continue to write.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/21415</dc:source>
 		<dc:source>https://archive.org/details/youngvisitersor01ashfgoog</dc:source>
