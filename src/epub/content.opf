@@ -57,8 +57,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/21415</dc:source>
 		<dc:source>https://archive.org/details/youngvisitersor01ashfgoog</dc:source>
 		<meta property="se:production-notes">As a stylistic choice to preserve the spelling of the author, spelling and hyphenization have not been modernized (except in the preface). In addition, the period after "Mr" has been included or excluded according to the page scans, which mostly lack the period but has it in six instances. This seems to imply that there is a meaningful distinction on the part of the printer by having the period or not. In the preface, the periods are excluded where Barrie is quoting Ashford, but inserted in his own text as would usually be done via typogrify.</meta>
-		<meta property="se:word-count">14682</meta>
-		<meta property="se:reading-ease.flesch">78.08</meta>
+		<meta property="se:word-count">14680</meta>
+		<meta property="se:reading-ease.flesch">80.41</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Young_Visiters</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/daisy-ashford_the-young-visiters</meta>
 		<dc:creator id="author">Daisy Ashford</dc:creator>
