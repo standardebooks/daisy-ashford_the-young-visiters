@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-5.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Incorrect capitalization is preserved as a matter of prose style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-10">
+		<ignore>
+			<code>t-030</code>
+			<reason>Periods in abbreviations are preserved as a matter of prose style.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
