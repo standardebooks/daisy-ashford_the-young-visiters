@@ -11,7 +11,7 @@ blockquote[epub|type~="z3998:letter"] p{
 
 blockquote[epub|type~="z3998:letter"] header p{
 	text-indent: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 blockquote[epub|type~="z3998:letter"] header + p{
