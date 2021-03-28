@@ -65,18 +65,18 @@
 		<meta property="file-as" refines="#author">Ashford, Daisy</meta>
 		<meta property="se:name.person.full-name" refines="#author">Margaret Mary Julia Devlin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Daisy_Ashford</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n82037127</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82037127</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="author-of-preface">J. M. Barrie</dc:contributor>
 		<meta property="file-as" refines="#author-of-preface">Barrie, J. M.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-preface">https://en.wikipedia.org/wiki/J._M._Barrie</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-preface">Sir James Matthew Barrie, 1st Baronet</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-preface">https://id.loc.gov/authorities/names/n50000555</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-preface">http://id.loc.gov/authorities/names/n50000555</meta>
 		<meta property="role" refines="#author-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William-Adolphe Bouguereau</dc:contributor>
 		<meta property="file-as" refines="#artist">Bouguereau, William-Adolphe</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William-Adolphe_Bouguereau</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n85059001</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85059001</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sutherland, Juliet</meta>
