@@ -43,7 +43,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
-		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="term" refines="#subject-3">sh85023847</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A nine-year-old girl’s humorous depiction of high society, exactly as written in her notebook.</dc:description>
