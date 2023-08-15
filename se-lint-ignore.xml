@@ -2,7 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-2.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
@@ -12,13 +12,13 @@
 			<reason>Incorrect capitalization is preserved as a matter of prose style.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6.xhtml">
 		<ignore>
-			<code>t-042</code>
+			<code>y-003</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
