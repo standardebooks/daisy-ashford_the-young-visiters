@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/daisy-ashford/the-young-visiters</dc:identifier>
 		<dc:date>2019-04-08T22:01:12Z</dc:date>
 		<meta property="dcterms:modified">2019-04-08T22:01:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -45,8 +46,8 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85023847</meta>
-		<meta property="se:subject">Comedy</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Comedy</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A nine-year-old girl’s humorous depiction of high society, exactly as written in her notebook.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/daisy-ashford"&gt;Daisy Ashford&lt;/a&gt; was just nine years old when she penned (or rather, penciled) &lt;i&gt;The Young Visiters&lt;/i&gt; in her notebook. As an adult, she found the manuscript along with other childhood writings and showed them to her literary friends for a laugh. They were so delighted that they passed them around their circle. The unexpected result was a publishing deal, with &lt;a href="https://standardebooks.org/ebooks/j-m-barrie"&gt;&lt;abbr&gt;J. M.&lt;/abbr&gt; Barrie&lt;/a&gt;, creator of Peter Pan, writing the preface. So clever was the book that some assumed Barrie himself had written the entire thing as an elaborate hoax.&lt;/p&gt;
@@ -56,27 +57,28 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/21415</dc:source>
 		<dc:source>https://archive.org/details/youngvisitersor01ashfgoog</dc:source>
-		<meta property="se:production-notes">As a stylistic choice to preserve the spelling of the author, spelling and hyphenization have not been modernized (except in the preface). In addition, the period after "Mr" has been included or excluded according to the page scans, which mostly lack the period but has it in six instances. This seems to imply that there is a meaningful distinction on the part of the printer by having the period or not. In the preface, the periods are excluded where Barrie is quoting Ashford, but inserted in his own text as would usually be done via typogrify.</meta>
-		<meta property="se:word-count">14666</meta>
-		<meta property="se:reading-ease.flesch">80.62</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Young_Visiters</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/daisy-ashford_the-young-visiters</meta>
+		<meta property="schema:wordCount">14666</meta>
+		<meta property="schema:educationalLevel">80.62</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Young_Visiters" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/daisy-ashford_the-young-visiters" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Daisy Ashford</dc:creator>
 		<meta property="file-as" refines="#author">Ashford, Daisy</meta>
-		<meta property="se:name.person.full-name" refines="#author">Margaret Mary Julia Devlin</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Daisy_Ashford</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82037127</meta>
+		<meta property="schema:alternateName" refines="#author">Margaret Mary Julia Devlin</meta>
+		<link href="https://en.wikipedia.org/wiki/Daisy_Ashford" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82037127.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="author-of-preface">J. M. Barrie</dc:contributor>
 		<meta property="file-as" refines="#author-of-preface">Barrie, J. M.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-preface">https://en.wikipedia.org/wiki/J._M._Barrie</meta>
-		<meta property="se:name.person.full-name" refines="#author-of-preface">Sir James Matthew Barrie, 1st Baronet</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-of-preface">http://id.loc.gov/authorities/names/n50000555</meta>
+		<link href="https://en.wikipedia.org/wiki/J._M._Barrie" refines="#author-of-preface" rel="schema:sameAs"/>
+		<meta property="schema:alternateName" refines="#author-of-preface">Sir James Matthew Barrie, 1st Baronet</meta>
+		<link href="https://id.loc.gov/authorities/names/n50000555.html" refines="#author-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William-Adolphe Bouguereau</dc:contributor>
 		<meta property="file-as" refines="#artist">Bouguereau, William-Adolphe</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William-Adolphe_Bouguereau</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85059001</meta>
+		<link href="https://en.wikipedia.org/wiki/William-Adolphe_Bouguereau" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85059001.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sutherland, Juliet</meta>
@@ -86,11 +88,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mitchell Jacobs</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Jacobs, Mitchell</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://mitchellbjacobs.com/</meta>
+		<link href="http://mitchellbjacobs.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -99,7 +101,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
