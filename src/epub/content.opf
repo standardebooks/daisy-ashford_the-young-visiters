@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Young Visiters: or, Mr. Salteena’s Plan</dc:title>
 		<meta property="file-as" refines="#fulltitle">Young Visiters, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Humorous stories</dc:subject>
 		<dc:subject id="subject-2">Love stories</dc:subject>
 		<dc:subject id="subject-3">Children’s writings, English</dc:subject>
