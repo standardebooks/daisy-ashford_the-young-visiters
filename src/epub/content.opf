@@ -71,8 +71,8 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="author-of-preface">J. M. Barrie</dc:contributor>
 		<meta property="file-as" refines="#author-of-preface">Barrie, J. M.</meta>
+		<meta property="schema:alternateName" refines="#author-of-preface">James Matthew Barrie</meta>
 		<link href="https://en.wikipedia.org/wiki/J._M._Barrie" refines="#author-of-preface" rel="schema:sameAs"/>
-		<meta property="schema:alternateName" refines="#author-of-preface">Sir James Matthew Barrie, 1st Baronet</meta>
 		<link href="https://id.loc.gov/authorities/names/n50000555.html" refines="#author-of-preface" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-preface" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">William-Adolphe Bouguereau</dc:contributor>
